@@ -1,2 +1,5 @@
 # stephanot.gallotta-gmail.com
-Curso da Bóson Treinamentos de MySQL
+Curso de MySQL da Bóson Treinamentos
+Linguagem: MySQL
+IDE: Workbench 6.3 CE
+Servidor Local: MAMP 4.1.1
