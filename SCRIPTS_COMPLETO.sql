@@ -189,9 +189,9 @@ INSERT INTO Vendas(ID, Nome_Vendedor, Quantidade, Produto, Cidade) VALUES
 (18,'Marcos',980,'Mouse','São Paulo'),
 (19,'Carla',1120,'Webcam','Recife'),
 (22,'Roberto',3145,'Mouse','São Paulo');
--- Mostrar tudo da tabela vendas cujo Produto for 'Mouse'
+-- Mostrar tudo da tabela Vendas cujo Produto for 'Mouse'
 SELECT * FROM Vendas WHERE Produto = 'Mouse';
--- Mostrar a soma dos registros da coluna Quantidade cujos valores da coluna Produto é 'Mouse' e dando o nome de Vendas para esta busca
+-- Mostrar a soma dos registros da coluna Quantidade da tabela Vendas onde a coluna Produto for igual a Mouse e nomeando a operação desta busca de TotalMouses
 SELECT SUM(Quantidade) AS TotalMouses FROM Vendas WHERE Produto = 'Mouse';
 -- Somando os registros da coluna Quantidade, agrupando-os por cidade e dando o nome da busca de Total
 SELECT Cidade, SUM(Quantidade) AS Total FROM Vendas GROUP BY Cidade;
